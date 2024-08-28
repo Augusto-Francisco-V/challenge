@@ -22,13 +22,16 @@ Este proyecto es un simple **encriptador y desencriptador de texto** desarrollad
 3. Utiliza el botón **"Copiar"** para copiar el texto encriptado.
 4. Para desencriptar, pega el texto cifrado y haz clic en **"Desencriptar"**.
 
+## 📦 Instalación
+
+Solo necesitas clonar este repositorio y abrir `index.html` en tu navegador.
+
 ## 🗂️ Estructura del Proyecto
+
+```plaintext
 encriptador/
 ├── index.html
 ├── styles.css
 ├── imagenes
 └── script.js
 
-## 📦 Instalación
-
-Solo necesitas clonar este repositorio y abrir `index.html` en tu navegador.
