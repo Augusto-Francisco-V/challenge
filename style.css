@@ -1,0 +1,144 @@
+* {
+    background: #00120B; 
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #D8E4FF; 
+}
+
+.logo {
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 6%;
+}
+
+body {
+    height: 980px;
+}
+
+main {
+    display: flex;
+    width: 1250px;
+    height: 800px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: flex-start; 
+    gap: 20px; 
+}
+
+.section-uno, .section-dos {
+    width: 800px; 
+}
+
+.section-dos {
+    height: 690px;
+}
+
+.text-area {
+    width: 684px;
+    border: none;
+    color: #D8E4FF; 
+    margin-top: 30px;
+    text-transform: lowercase;
+    resize: none;
+    background-color: #00120B; 
+}
+
+::placeholder { color: #D8E4FF; } 
+.text-area:focus {
+    outline: none;
+}
+
+.mensaje {
+    background: #35605A; 
+    background-image: url("imagenes/img.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    resize: none;
+    border-radius: 24px;
+    color: #D8E4FF; 
+    width: 400px;
+    height: 680px;
+    margin-left: 500px; 
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.mensaje:focus {
+    outline: none;
+}
+
+.botones {
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-encriptar {
+    background-color: #6B818C; 
+    border: 1px solid #6B818C;
+    border-radius: 24px;
+    color: #D8E4FF; 
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-desencriptar {
+    background-color: #31E981; 
+    border: 1px solid #31E981; 
+    border-radius: 24px;
+    margin-left: 30px;
+    color: #00120B; 
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.boton-div {
+    margin-top: -84px;
+    margin-left: 5px;
+}
+
+.boton-copiar {
+    border: 1px solid #6B818C; 
+    border-radius: 24px;
+    color: #D8E4FF; 
+    cursor: pointer;
+    height: 67px;
+    width: 336px;
+    margin-top: 0px;
+    margin-left: 530px;
+}
+
+.informacion {
+    color: #D8E4FF; 
+    font-size: 18px;
+}
+
+.footer {
+    max-width: 100%;
+    padding: 5px 0;
+}
+
+.copyright-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.copyright {
+    font-size: 30px;
+    font-weight: 200;
+    color: #D8E4FF; 
+}
+
+.links-social {
+    display: flex;
+    height: 80px;
+    width: 160px;
+    padding-top: 11px;
+    color: #D8E4FF; 
+}
